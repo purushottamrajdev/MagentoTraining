@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Espl_AdminGrid::contactus" title="Contact Us" module="Espl_AdminGrid" sortOrder="10" resource="Espl_AdminGrid::contactus"/>
+        <add id="Espl_AdminGrid::customerqueries" title="Customer Queries" module="Espl_AdminGrid" sortOrder="1" action="customerquery/ContactUs/Index" resource="Espl_AdminGrid::customerqueries" parent="Espl_AdminGrid::contactus"/>        
+    </menu>
+</config>
